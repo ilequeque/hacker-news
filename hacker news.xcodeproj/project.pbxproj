@@ -11,6 +11,10 @@
 		FC6B907D2BB22F7800089A93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B907C2BB22F7800089A93 /* ContentView.swift */; };
 		FC6B907F2BB22F7900089A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6B907E2BB22F7900089A93 /* Assets.xcassets */; };
 		FC6B90822BB22F7900089A93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6B90812BB22F7900089A93 /* Preview Assets.xcassets */; };
+		FC6B908A2BB230BB00089A93 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B90892BB230BB00089A93 /* NetworkManager.swift */; };
+		FC6B908C2BB231F200089A93 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B908B2BB231F200089A93 /* PostData.swift */; };
+		FC6B90902BB2371700089A93 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B908F2BB2371700089A93 /* DetailView.swift */; };
+		FC6B90922BB23AC800089A93 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B90912BB23AC800089A93 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		FC6B907C2BB22F7800089A93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC6B907E2BB22F7900089A93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC6B90812BB22F7900089A93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC6B90892BB230BB00089A93 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FC6B908B2BB231F200089A93 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		FC6B908F2BB2371700089A93 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FC6B90912BB23AC800089A93 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,9 @@
 		FC6B90792BB22F7800089A93 /* hacker news */ = {
 			isa = PBXGroup;
 			children = (
+				FC6B90882BB2308C00089A93 /* Model */,
 				FC6B907A2BB22F7800089A93 /* hacker_newsApp.swift */,
-				FC6B907C2BB22F7800089A93 /* ContentView.swift */,
+				FC6B908E2BB236F100089A93 /* View */,
 				FC6B907E2BB22F7900089A93 /* Assets.xcassets */,
 				FC6B90802BB22F7900089A93 /* Preview Content */,
 			);
@@ -65,6 +74,25 @@
 				FC6B90812BB22F7900089A93 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC6B90882BB2308C00089A93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC6B90892BB230BB00089A93 /* NetworkManager.swift */,
+				FC6B908B2BB231F200089A93 /* PostData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC6B908E2BB236F100089A93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC6B907C2BB22F7800089A93 /* ContentView.swift */,
+				FC6B908F2BB2371700089A93 /* DetailView.swift */,
+				FC6B90912BB23AC800089A93 /* WebView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC6B908A2BB230BB00089A93 /* NetworkManager.swift in Sources */,
+				FC6B908C2BB231F200089A93 /* PostData.swift in Sources */,
 				FC6B907D2BB22F7800089A93 /* ContentView.swift in Sources */,
+				FC6B90922BB23AC800089A93 /* WebView.swift in Sources */,
+				FC6B90902BB2371700089A93 /* DetailView.swift in Sources */,
 				FC6B907B2BB22F7800089A93 /* hacker_newsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
